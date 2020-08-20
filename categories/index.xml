@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on huangjianpeng Blog</title>
-    <link>http://qwehjp.github.io/categories/</link>
+    <link>https://qwehjp.github.io/categories/</link>
     <description>Recent content in Categories on huangjianpeng Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://qwehjp.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qwehjp.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>java</title>
-      <link>http://qwehjp.github.io/categories/java/</link>
+      <link>https://qwehjp.github.io/categories/java/</link>
       <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://qwehjp.github.io/categories/java/</guid>
+      <guid>https://qwehjp.github.io/categories/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>http://qwehjp.github.io/categories/golang/</link>
+      <link>https://qwehjp.github.io/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://qwehjp.github.io/categories/golang/</guid>
+      <guid>https://qwehjp.github.io/categories/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docs</title>
-      <link>http://qwehjp.github.io/categories/docs/</link>
+      <link>https://qwehjp.github.io/categories/docs/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://qwehjp.github.io/categories/docs/</guid>
+      <guid>https://qwehjp.github.io/categories/docs/</guid>
       <description></description>
     </item>
     

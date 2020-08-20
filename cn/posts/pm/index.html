@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Kaven Huang" />
+  <meta property="og:url" content="http://qwehjp.github.io/cn/posts/pm/" />
+  <link rel="canonical" href="http://qwehjp.github.io/cn/posts/pm/" /><link rel="preload" href="/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="http://qwehjp.github.io/index.xml" title="huangjianpeng Blog">
+
+  <script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "http:\/\/qwehjp.github.io\/"
+      },
+      "articleSection" : "posts",
+      "name" : "lll",
+      "headline" : "lll",
+      "description" : "泡沫排序法 public static void bubbleSort(int arr[]) { for(int i =0 ; i\u0026lt;arr.length-1 ; i\u002b\u002b) { for(int j=0 ; j\u0026lt;arr.length-1-i ; j\u002b\u002b) { if(arr[j]\u0026gt;arr[j\u002b1]) { int temp = arr[j]; arr[j]=arr[j\u002b1]; arr[j\u002b1]=temp; } } } } ",
+      "inLanguage" : "en-US",
+      "author" : "Kaven Huang",
+      "creator" : "Kaven Huang",
+      "publisher": "Kaven Huang",
+      "accountablePerson" : "Kaven Huang",
+      "copyrightHolder" : "Kaven Huang",
+      "copyrightYear" : "0001",
+      "datePublished": "0001-01-01 00:00:00 \u002b0000 UTC",
+      "dateModified" : "0001-01-01 00:00:00 \u002b0000 UTC",
+      "url" : "http:\/\/qwehjp.github.io\/cn\/posts\/pm\/",
+      "keywords" : [ "go","golang","templates","themes","development", ]
+  }
+</script>
+<title>lll - huangjianpeng Blog</title>
+  <meta property="og:title" content="lll - huangjianpeng Blog" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="泡沫排序法 public static void bubbleSort(int arr[]) { for(int i =0 ; i&lt;arr.length-1 ; i&#43;&#43;) { for(int j=0 ; j&lt;arr.length-1-i ; j&#43;&#43;) { if(arr[j]&gt;arr[j&#43;1]) { int temp = arr[j]; arr[j]=arr[j&#43;1]; arr[j&#43;1]=temp; } } } } " />
+  <meta name="description" content="泡沫排序法 public static void bubbleSort(int arr[]) { for(int i =0 ; i&lt;arr.length-1 ; i&#43;&#43;) { for(int j=0 ; j&lt;arr.length-1-i ; j&#43;&#43;) { if(arr[j]&gt;arr[j&#43;1]) { int temp = arr[j]; arr[j]=arr[j&#43;1]; arr[j&#43;1]=temp; } } } } " />
+  <meta property="og:locale" content="en-us" />
+
+  <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet" href="/css/github-markdown.css" />
+  <link rel="stylesheet" href="/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/css/index.css">
+
+  
+
+  <link href="/index.xml" rel="alternate" type="application/rss+xml"
+    title="huangjianpeng Blog">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker|Bree+Serif" rel="stylesheet">
+  
+  
+
+  
+</head>
+
+<body>
+  <article class="post Chinese" id="article">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="site-header">
+          
+<header>
+  <div class="signatures site-title">
+    <a href="/cn/">Kaven Huang</a>
+  </div>
+</header>
+<div class="row end-xs">
+  
+  
+  <div class="lang-switch col-xs-3 col-xs-offset-9">
+    <a href="/en/">English</a>
+  </div>
+  
+  
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">lll</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+            </div>
+            <div class="col-xs-6">
+              
+              <div class="post-author">
+                <a target="_blank" href="https://joway.io/">@Kaven Huang</a>
+              </div>
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          
+          <h1 id="泡沫排序法">泡沫排序法</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">bubbleSort</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> arr<span style="color:#f92672">[])</span> <span style="color:#f92672">{</span>
+ 
+        <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span>0 <span style="color:#f92672">;</span> i<span style="color:#f92672">&lt;</span>arr<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">-</span>1 <span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span> 
+           
+            <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> j<span style="color:#f92672">=</span>0 <span style="color:#f92672">;</span> j<span style="color:#f92672">&lt;</span>arr<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">-</span>1<span style="color:#f92672">-</span>i <span style="color:#f92672">;</span> j<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>  
+ 
+                <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>arr<span style="color:#f92672">[</span>j<span style="color:#f92672">]&gt;</span>arr<span style="color:#f92672">[</span>j<span style="color:#f92672">+</span>1<span style="color:#f92672">])</span> <span style="color:#f92672">{</span>
+                    <span style="color:#66d9ef">int</span> temp <span style="color:#f92672">=</span> arr<span style="color:#f92672">[</span>j<span style="color:#f92672">];</span>
+                     
+                    arr<span style="color:#f92672">[</span>j<span style="color:#f92672">]=</span>arr<span style="color:#f92672">[</span>j<span style="color:#f92672">+</span>1<span style="color:#f92672">];</span>
+                     
+                    arr<span style="color:#f92672">[</span>j<span style="color:#f92672">+</span>1<span style="color:#f92672">]=</span>temp<span style="color:#f92672">;</span>
+            <span style="color:#f92672">}</span>
+            <span style="color:#f92672">}</span>    
+        <span style="color:#f92672">}</span>
+    <span style="color:#f92672">}</span>
+</code></pre></div>
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+            <div class="post-category">
+              <a href="//cn/categories/java/">
+                Java
+              </a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            
+          </div>
+        </div>
+
+        
+        
+
+        
+        
+        <div style="height: 50px;"></div>
+        
+        <div class="post-comments">
+          <div id="disqus_thread"></div>
+<script>
+  window.addEventListener("load", () => {
+    (function() {
+      
+      var d = document,
+        s = d.createElement("script");
+      s.src = "https://joway.disqus.com/embed.js";
+      s.setAttribute("data-timestamp", +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  });
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript"
+    >comments powered by Disqus.</a
+  ></noscript
+>
+
+        </div>
+        
+        
+
+        <div class="site-footer">
+  
+  <div class="site-footer-item">
+    <a href="/index.xml" target="_blank">RSS</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://joway.io" target="_blank">About</a>
+  </div>
+  
+  
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="/js/highlight.pack.js"></script>
+
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  
+  
+    
+    
+  
+</script>
+
+  
+
+</body>
+
+</html>
